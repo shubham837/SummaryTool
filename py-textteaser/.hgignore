@@ -1,0 +1,15 @@
+syntax: regexp
+(^|/)\..*
+^docs/_build/.*
+^MANIFEST
+^textteaser/tests/apikey.py
+
+syntax: glob
+*.bak
+*.egg-info
+*.orig
+*.pyc
+*.rej
+*.sqlite
+build
+dist
